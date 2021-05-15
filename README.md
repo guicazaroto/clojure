@@ -17,3 +17,9 @@ No exemplo abaixo definimos um símbolo que faz referência a uma matriz
 (def estoque ["cadeira", "mesa", "televisao"])
 ````
 
+### Realizando operações
+Na operação abaixo definimos um símbolo "total" com o valor de 20 e em seguida definimos outro símbolo "resultado "que é igual a soma de total com 30
+```
+(def total 20)
+(def resultado (+ total 30))
+```
