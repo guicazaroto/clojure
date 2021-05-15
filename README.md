@@ -52,5 +52,7 @@ Na operação abaixo definimos um símbolo "total" com o valor de 20 e em seguid
   (+ valor taxa)
 )
 
-(println (valor-com-taxa 5 (valor-descontado 100)) )
+(def total (valor-com-taxa 5 (valor-descontado 100) ) )
+
+(println total)
 ```
