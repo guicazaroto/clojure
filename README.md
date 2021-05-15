@@ -34,3 +34,23 @@ Na operação abaixo definimos um símbolo "total" com o valor de 20 e em seguid
   (* valor 0.9)
 )
 ```
+
+### Encadeando funções
+
+```
+(defn
+  "Retorna o 90% do valor total"
+  valor-descontado
+  [valor]
+  (* valor 0.9)
+)
+
+(defn
+  "Acrescenta taxa"
+  valor-com-taxa
+  [taxa valor]
+  (+ valor taxa)
+)
+
+(println (valor-com-taxa 5 (valor-descontado 100)) )
+```
