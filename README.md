@@ -23,3 +23,14 @@ Na operação abaixo definimos um símbolo "total" com o valor de 20 e em seguid
 (def total 20)
 (def resultado (+ total 30))
 ```
+
+### Definindo Funções
+
+```
+(defn
+  "Retorna o 90% do valor total"
+  valor-descontado
+  [valor]
+  (* valor 0.9)
+)
+```
