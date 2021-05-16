@@ -58,5 +58,6 @@ Na operação abaixo definimos um símbolo "total" com o valor de 20 e em seguid
 ```
 
 ### Contar itens em um vetor
+```
 (count estoque)
-
+```
